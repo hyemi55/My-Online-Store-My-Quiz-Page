@@ -1,7 +1,7 @@
 let items = {
-    'Apple' : 700,
-    'Orange' : 800,
-    'Lemon' : 900
+    'apple' : 700,
+    'orange' : 800,
+    'lemon' : 900
 };
 let cart = [];
 let count = 0;
@@ -17,7 +17,7 @@ function addToCart(item) {
     totalText.innerText = `총합: ${total} KRW`;
 };
 
-let buttons = document.querySelectorAll("button");
+let buttons = document.querySelectorAll("input");
 buttons.forEach(b => {
-    b.addEventListener('click', () => addToCart(b.previousElementSibling.previousElementSibling.innerText));
+    b.addEventListener('click', () => addToCart(b.parentElement.parentElement.id));
 });

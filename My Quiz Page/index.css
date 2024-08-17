@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz {
+    margin: 20px 0;
+}
+
+li {
+    margin: 0 0 5px 0;
+}
+
+#submit {
+    width: max-content;
+    position: relative;
+    margin: 0 0 0 auto;
+}

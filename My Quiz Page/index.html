@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quiz Page</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div class="container">
+        <ol>
+            <div  class="quiz" id="quiz1">
+                <li>내가 좋아하는 색깔은?</li>
+                <input type='checkbox' name='color' value="파랑">파랑</input>
+                <input type='checkbox' name='color' value="분홍">분홍</input>
+                <input type='checkbox' name='color' value="검정">검정</input>
+                <input type='checkbox' name='color' value="노랑">노랑</input>
+            </div>
+            <div class="quiz" id="quiz2">
+                <li>나의 학번은?</li>
+                <input type='checkbox' name='grade' value="20">20</input>
+                <input type='checkbox' name='grade' value="21">21</input>
+                <input type='checkbox' name='grade' value="22">22</input>
+                <input type='checkbox' name='grade' value="23">23</input>
+            </div>
+            <div class="quiz" id="quiz3">
+                <li>나의 혈액형은? [A/B/O/AB]</li>
+                <input type="text" value=""/>
+            </div>
+        </ol>
+        <input type="button" value="submit" id="submit" />    
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
